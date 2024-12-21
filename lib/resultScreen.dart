@@ -1,20 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:navigation_passing_data_app/customCard.dart';
 import 'package:navigation_passing_data_app/resetQuizStatus.dart';
-import 'package:navigation_passing_data_app/scoreCard.dart';
 import 'customButton.dart';
-import 'scoreCard.dart';
-import 'quiz.dart';
 
 class Resultscreen extends StatelessWidget {
+  static const routeName = '/result';
   Resultscreen({this.score = 0, this.totalAttempted = 0});
 
   final int score;
   final int totalAttempted;
   @override
   Widget build(BuildContext context) {
-    Quiz quizScoreCard = Quiz();
-
     ThemeData theme = Theme.of(context);
     return Scaffold(
       appBar: AppBar(

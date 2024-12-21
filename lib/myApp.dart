@@ -8,7 +8,7 @@ import 'utils.dart';
 import 'scoreCard.dart';
 
 class GuessCountry extends StatefulWidget {
-  const GuessCountry({super.key});
+  static const routeName = '/';
 
   @override
   State<GuessCountry> createState() => _GuessCountryState();

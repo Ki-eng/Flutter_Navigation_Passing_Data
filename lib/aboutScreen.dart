@@ -3,7 +3,7 @@ import 'customButton.dart';
 import 'customCard.dart';
 
 class Aboutscreen extends StatelessWidget {
-  const Aboutscreen({super.key});
+  static const routeName = '/about';
 
   @override
   Widget build(BuildContext context) {
